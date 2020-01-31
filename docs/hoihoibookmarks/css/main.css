@@ -1,0 +1,238 @@
+/*  main css  */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  line-sizing: normal;
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.17rem;
+}
+h4 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 0.83rem;
+}
+h6 {
+  font-size: 0.67rem;
+}
+h1 {
+  margin: 0.67em 0;
+}
+pre {
+  white-space: pre-wrap;
+}
+hr {
+  border-style: solid;
+  border-width: 1px 0 0;
+  color: inherit;
+  height: 0;
+  overflow: visible;
+}
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+img,
+svg,
+video,
+canvas {
+  height: auto;
+}
+audio {
+  width: 100%;
+}
+img {
+  border-style: none;
+}
+svg {
+  overflow: hidden;
+}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+/*
+** origin style
+*/
+html,
+body {
+  font-size: 14px;
+  font-family: 'Quicksand', monospace;
+}
+.wf_ttl {
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+img {
+  width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.flex {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+.flex_item {
+  display: block;
+  width: 50%;
+  overflow: hidden;
+}
+.header,
+.footer {
+  text-align: center;
+  overflow: hidden;
+}
+.footer {
+  padding: 1.5em;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  background: #eee;
+}
+.main {
+  text-align: center;
+  background: #fff;
+}
+.mv {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 20vh 0;
+}
+.siteTitle {
+  font-size: 1.8rem;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: 0.25em;
+  line-height: 1.6;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.siteImage {
+  width: 268px;
+  max-width: 100%;
+  min-width: 320px;
+}
+.secTitle {
+  color: #eee;
+  position: absolute;
+  top: -2rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 99;
+  line-height: 1;
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+.wrap_section {
+  position: relative;
+  background: url("../img/mainbg01.jpg") no-repeat center center;
+  background-size: cover;
+  border-top: 1px solid #eee;
+}
+.wrap_section .wrap_cmnList .cmnBtn {
+  background-color: #fff;
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.wrap_section .wrap_cmnList .title {
+  -webkit-transition: letter-spacing 0.3s ease-in-out;
+  transition: letter-spacing 0.3s ease-in-out;
+}
+.wrap_section .wrap_cmnList:hover .cmnBtn {
+  background-color: rgba(255,255,255,0.9);
+}
+.wrap_section .wrap_cmnList:hover .cmnBtn:hover {
+  color: #fff;
+  background-color: rgba(255,255,255,0.3);
+}
+.wrap_section .wrap_cmnList:hover .cmnBtn:hover .title {
+  letter-spacing: 0.2em;
+}
+.wrap_section li:nth-child(even) {
+  border-left: 1px solid #eee;
+}
+.cmnBtn {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 8rem 0;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 0.1em;
+  font-size: 1.4rem;
+}
+.cmnBtn .category {
+  display: block;
+  width: 100%;
+  font-size: 0.6em;
+}
